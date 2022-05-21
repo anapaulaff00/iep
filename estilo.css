@@ -1,0 +1,9 @@
+body{
+    background-color: grey;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container_01{
+    background-color: white;
+    align-items: center;
+}
