@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8"/>
+  
+  <title>HTML5 – Formulário</title>
+
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Formulário HTML</h1>
+
+  <div class="container_01">
+    <form id="atividade01" action="sucesso.html" target="_blank" method="get">
+
+      <label for="idade">Idade:</label><br>
+      <input type="text" id="idade" name="idade" placeholder="digite aqui"><br><br>
+
+      <label for="idade">Senha:</label><br>
+      <input type="password" id="senha" name="senha" placeholder="digite aqui"><br><br>
+
+      <label for="estado_civil">Estado Civil:</label>
+      <select name="estado_civil" id="estado_civil">
+        <option value="solteiro">Solteiro</option>
+        <option value="casado">Casado</option>
+        <option value="divorciado">Divorciado</option>
+        <option value="viuvo">Viuvo</option>
+      </select> <br><br>
+
+      <label for="estado_civil">Caixa de Comentario</label><br>
+      <textarea id="cx_comentario" name="cx_comentario" rows="4" cols="50">
+      digite aqui...
+      </textarea><br><br>
+
+      <button type="submit" form_id="atividade01" >Enviar</button>
+
+    </form>
+  </div>
+</body>
+
+</html>
