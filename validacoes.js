@@ -1,6 +1,6 @@
 <!-- CPF-->
     <script>
-         // Mascara de texto CPF	
+        // Mascara de texto CPF	
         function mascara(i){
             var v = i.value;
             
@@ -9,11 +9,10 @@
                 return;
             }
             
-            i.setAttribute("maxlength", "14");
-            if (v.length == 3 || v.length == 7) i.value += ".";
-            if (v.length == 11) i.value += "-";
+            i.setAttribute("maxlength", "14"); // adiciona o limite máximo de caracter de 14
+            if (v.length == 3 || v.length == 7) i.value += "."; //conta até o 3º caracter e adicionar um "." após
+            if (v.length == 11) i.value += "-"; //conta até o 11º caracter e adicionar um "-" após
         }
-
 
         // Validar CPF	
         function validarCPF(cpf) {	
